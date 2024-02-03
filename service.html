@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>TechNext - Services</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container-xxl bg-white p-0">
+            <div id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-grow text-primary"
+                    style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <div class="container-xxl position-relative p-0">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                    <a href class="navbar-brand p-0">
+                        <h1 class="m-0">TechNext</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html"
+                                class="nav-item nav-link active">Services</a>
+                            <a href="blog.html" class="nav-item nav-link">Blogs</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <input class="form-control me-2" style="width: 250px;"
+                            type="search"
+                            placeholder="Search" aria-label="Search">
+                        <a href="login.html"
+                            class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Login</a>
+                        <a href="register.html"
+                            class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Register</a>
+                    </div>
+                </nav>
+
+                <div class="container-xxl py-5 bg-primary hero-header">
+                    <div class="container my-5 py-5 px-lg-5">
+                        <div class="row g-5 py-5">
+                            <div class="col-12 text-center">
+                                <h1 class="text-white animated slideInDown">Our
+                                    Services</h1>
+                                <hr class="bg-white mx-auto mt-0"
+                                    style="width: 90px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-xxl py-5 w-75 mx-auto">
+                <div class="py-5 px-5">
+                    <div class="wow fadeInUp">
+                        <p
+                            class="section-title text-secondary justify-content-center"><span></span>Our
+                            Services<span></span></p>
+                        <h1 class="text-center mb-5">Recent Provided Services</h1>
+                    </div>
+                    <div class="row mt-n2 wow fadeInUp">
+                        <div class="col-12 text-center">
+                            <ul class="list-inline mb-5" id="portfolio-flters">
+                                <li class="mx-2 active" data-filter="*">All</li>
+                                <li class="mx-2" data-filter=".first">Web Design</li>
+                                <li class="mx-2" data-filter=".second">Graphic
+                                    Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row g-4 portfolio-container">
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item first wow fadeInUp">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-1.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-1.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">UI /
+                                        UX Design</p>
+                                    <h5 class="lh-base mb-0">TechNext Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.3s">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-2.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-2.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">Web
+                                        Design</p>
+                                    <h5 class="lh-base mb-0">Digital Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                            data-wow-delay="0.5s">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-3.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-3.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">UI /
+                                        UX Design</p>
+                                    <h5 class="lh-base mb-0">TechNext Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-4.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-4.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">Graphic
+                                        Design</p>
+                                    <h5 class="lh-base mb-0">TechNext Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                            data-wow-delay="0.3s">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-5.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-5.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">Graphic
+                                        Design</p>
+                                    <h5 class="lh-base mb-0">TechNext Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.5s">
+                            <div class="rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <img class="img-fluid w-100"
+                                        src="img/portfolio-6.jpg" alt>
+                                    <div class="portfolio-overlay">
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href="img/portfolio-6.jpg"
+                                            data-lightbox="portfolio"><i
+                                                class="fa fa-eye"></i></a>
+                                        <a
+                                            class="btn btn-square btn-outline-light mx-1"
+                                            href><i class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="bg-light p-4">
+                                    <p class="text-primary fw-medium mb-2">Web
+                                        Design</p>
+                                    <h5 class="lh-base mb-0">TechNext Agency
+                                        Website Design And Development</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>Pricing<span></span></p>
+                <div class="row d-flex gap-4 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3 border border-1 p-4">
+                        <h3 class="text-center text-primary">Basic</h3>
+                        <center>
+                            <hr
+                                style="height: 7px; border-radius: 20px; width: 40%;">
+                        </center>
+                        <div class="text-center">
+                            <h1 class="text-info">9.99$</h1><b>/ Month</b>
+                        </div>
+                        <p class="text-center">For Indivituals / Developers</p>
+
+                        <ul>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Scalability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Performance</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Liability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Responsive
+                                Design</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Content
+                                Included</li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-12 col-md-6 col-lg-3 border border-1 p-4 position-relative">
+                        <h1 class="bg-secondary badge position-absolute"
+                            style="font-size: 16px; right: 2px; top: 2px;">Most
+                            Popular
+                        </h1>
+                        <h3 class="text-center text-primary">Standard</h3>
+                        <center>
+                            <hr
+                                style="height: 7px; border-radius: 20px; width: 40%;">
+                        </center>
+                        <div class="text-center">
+                            <h1 class="text-info">19.99$</h1><b>/ Month</b>
+                        </div>
+                        <p class="text-center">For Small-Mid Comapnies</p>
+
+                        <ul>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Scalability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Performance</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Liability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Responsive
+                                Design</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Content
+                                Included</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 border border-1 p-4">
+                        <h3 class="text-center text-primary">Exclusive</h3>
+                        <center>
+                            <hr
+                                style="height: 7px; border-radius: 20px; width: 40%;">
+                        </center>
+                        <div class="text-center">
+                            <h1 class="text-info">39.99$</h1><b>/ Month</b>
+                        </div>
+                        <p class="text-center">For Teams / Executives</p>
+
+                        <ul>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Scalability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Performance</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Liability</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Responsive
+                                Design</li>
+                            <li class="list-unstyled"><i
+                                    class="fa fa-check-circle pe-3"></i>Content
+                                Included</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-lg-5 col-lg-7 col-11 col-md-8 mx-auto py-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>CTA<span></span></p>
+                <div
+                    class="bg-primary text-white d-flex justify-content-around align-items-center gap-5 p-4 rounded">
+                    <div>
+                        <h2 class="text-white">Register Now!!</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Fugit ullam, nesciunt autem incidunt dolor
+                            quis magni. Dolorum ea nam laborum.</p>
+                    </div>
+                    <button
+                        class="btn btn-secondary w-25 text-white d-flex justify-content-center align-items-center gap-2 p-3">Contact
+                        Us <i class="fab fa-telegram text-primary"></i></button>
+                </div>
+            </div>
+
+            <div class="bg-primary text-light footer">
+                <div class="py-5 px-5">
+                    <div class="row g-5 d-flex justify-content-center">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="section-title text-white h5 mb-4">Address<span></span></p>
+                            <p><i class="fa fa-map-marker-alt me-3"></i>123
+                                Street, New York, USA</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+012 345
+                                67890</p>
+                            <p><i class="fa fa-envelope me-3"></i>info@TechNext.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social"
+                                    href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="section-title text-white h5 mb-4">Quick
+                                Link<span></span></p>
+                            <a class="btn btn-link" href="about.html">About Us</a>
+                            <a class="btn btn-link" href="contact.html">Contact
+                                Us</a>
+                            <a class="btn btn-link" href="service.html">Our
+                                Services</a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-3">
+                            <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                            <p>Lorem ipsum dolor sit amet elit. Phasellus nec
+                                pretium mi. Curabitur facilisis ornare velit non
+                                vulpu</p>
+                            <div class="position-relative w-100 mt-3">
+                                <input
+                                    class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Your Email"
+                                    style="height: 48px;">
+                                <button type="button"
+                                    class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="  px-5">
+                    <div class="copyright">
+                        <div class="row">
+                            <div
+                                class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a href="#">TechNext</a>, All Right
+                                Reserved.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="about.html">About</a>
+                                    <a href="contact.html">Contact</a>
+                                    <a href="service.html">Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
